@@ -1,0 +1,351 @@
+/*Basic Montage.css ==> Presets*/
+
+* {font-family: "Roboto"; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);}
+
+body {
+  overflow-x: hidden;
+}
+
+/*Common*/
+
+.w33 {padding: 10px;}
+
+ul {list-style-type: none;}
+
+h3 {
+  font-size: 25px;
+  color: white;
+  font-weight: lighter;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {color: white;}
+
+a {text-decoration: none;}
+
+/*Main*/
+
+main {border-bottom: 1px solid #509d87;}
+
+main .background-image {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+main .container {background-image: linear-gradient(to bottom, rgba(0,0,0,0), #7bc9ba);}
+
+/*Header*/
+
+header {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0 40px;
+  align-items: center;
+}
+
+header .logo {
+  width: 150px;
+  height: 60px;
+  background-color: #CCC;
+}
+
+nav.web li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav.web a {
+  color: #7bc9ba;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.6s;
+}
+
+nav.web a:hover {
+  color: #509d87;
+  text-decoration: underline;
+}
+
+/*Nav Mobile*/
+
+nav.mobile i {
+  font-size: 28px; 
+  color: #7bc9ba;
+  cursor: pointer;
+}
+
+nav.mobile .menu {
+  position: absolute;
+  left: 0;
+  top: 60px;
+  width: 100%;
+  background-color: white;
+  z-index: 3;
+}
+
+.menu ul {text-align: center;}
+
+.menu li {
+  font-size: 16px;
+  padding: 10px 0;
+  border: 1px solid #509d87;
+  border-collapse: collapse;
+  transition: 1s;
+}
+
+.menu a {
+  color: #509d87;
+  transition: 1s;
+}
+
+.menu li:hover {background-color: #509d87;}
+
+.menu li:hover > a {color: white;}
+
+/*Main Text*/
+
+.main-text {
+  text-align: right;
+  padding-right: 70px;
+}
+
+.main-text > div {
+  position: relative;
+  top: 30%;
+}
+
+.main-text h1 {
+  font-size: 40px;
+  color: #73c2b2;
+}
+
+.main-text h1 > span {color: #509d87;}
+
+.main-text h3 {
+  margin-top: 10px;
+  color: #509d87;
+  font-size: 28px;
+}
+
+/*Who Am I*/
+
+section.who-am-i {
+  background-color: #7bc9ba;
+  padding: 70px;
+}
+
+.who-am-i .professional-info {padding: 2%; text-align: left;}
+
+/*Professional Info*/
+
+.professiona-photo img {max-width: 100%;}
+
+.professional-info p:first-of-type {
+  margin-top: 15px;
+}
+
+.professional-info p {margin-top: 10px;}
+
+/*Threatments*/
+
+section.threatments {padding: 50px;}
+
+.threatments h3 {margin-bottom: 10px;}
+
+.threatments p {
+  margin-top: 5px; 
+  font-size: 15px;
+}
+
+/*Depoiments*/
+
+section.depoiments {
+  padding: 45px;
+  background-color: #509d87;
+  border-bottom:1px solid rgba(250, 250, 250, 0.2);
+}
+
+.depoiments h3 {margin-bottom: 10px;}
+
+/*Carrousel*/
+
+.carousel {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/*Depoiments Single*/
+
+.person {
+  justify-content: center; 
+  align-items: center;
+  margin-top: 5px;
+}
+
+.person .photo {
+  width: 40px;
+  height: 40px;
+  background-color: #CCCCCC;
+  margin-right: 5px;
+}
+
+.person p {vertical-align: middle;}
+
+/*Slick*/
+
+.slick-dotted ul{
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	margin-top: 20px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #7bc9ba;
+	border-width: 0;
+	background-color: #7bc9ba;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background-color: white;
+	color: white;
+}
+
+.slick-slide:focus{
+	outline: none;
+}
+
+/*Videos*/
+
+section.videos {
+  min-height: 400px;
+  width: 100%;
+  padding: 35px;
+  background-image: linear-gradient(to bottom, #509d87, #7bc9ba);
+}
+
+.videos .videos-container {margin-top: 30px;}
+
+.videos-container > div {width: 33%; padding: 10px;}
+
+.video-box {
+  width: 100%;
+  background-color: #CCCCCC;
+  height: 200px;
+}
+
+/*Social*/
+
+section.social {
+  width: 100%;
+  background-color: #509d87;
+  padding: 30px;
+}
+
+/*Icons*/
+
+.icons {margin-top: 15px;}
+
+.icons > a {
+  width: 33%;
+}
+
+.icons i {
+  color: white; 
+  font-size: 30px;
+  transition: 1s;
+}
+
+.icons p {
+  transition: 1s;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.icons a:hover > * {color: rgb(224, 224, 224);}
+
+/*Footer*/
+
+footer {
+  width: 100%;
+  background-color: #418571;
+  padding: 35px 45px;
+}
+
+footer p.top {margin-top: 10px;}
+
+/*Media Queries*/
+
+@media screen and (max-width: 820px) {
+  .w50 {width: 100%;}
+
+  .w25 {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (max-width: 818px) {
+  .videos-container > div {
+    width: 100%;
+    padding: 10px 0;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 817px) {
+  section.who-am-i {padding: 40px 2%;}
+  
+  .professional-info {margin-top: 10px;}
+}
+
+@media screen and (max-width: 799px) {
+  .w33 {
+    width: 50%;
+    text-align: center;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  .icons > div {width: 100%;}
+
+  .icons > div:not(:first-of-type) {margin-top: 10px;}
+}
+
+@media screen and (max-width: 683px) {
+  nav.web {display: none;}
+  nav.mobile {display: block;}
+
+  .main-text {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  section.threatments {
+    padding: 50px 2%;
+  }
+  
+  .w33 {
+    width: 100%;
+    text-align: center;
+  }
+}
